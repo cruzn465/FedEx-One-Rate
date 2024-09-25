@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="ad.size" content="width=160,height=600" />
+
+  <title>FedEx</title>
+  <script src="https://s0.2mdn.net/ads/studio/Enabler.js"></script>
+  <link type="text/css" rel="stylesheet" href="styles.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+  <script type="text/javascript" src="main.js"></script>
+</head>
+
+<body style="visibility: hidden;">
+  <div id="banner" class="masterSize posAbsolute lt0">
+    <div class="orangeBorder posAbsolute lt0"></div>
+    <div id="logo" class="posAbsolute lt0">
+      <img src="images/logo.svg" class="w100" />
+    </div>
+    <div id="legal" class="posAbsolute ">
+      <img src="images/legal.png" class="w100" />
+    </div>
+    <!-- Frame 1 -->
+    <div id="frame1" class="posAbsolute w100 lt0">
+      <div id="copy1" class="masterSize posAbsolute lt0">
+        <img id="c1_a" src="images/copy1_1.png" class="w100 posAbsolute lt0" />
+        <img id="c1_b" src="images/copy1_2.png" class="w100 posAbsolute lt0" />
+        <img id="c1_c" src="images/copy1_3.png" class="w100 posAbsolute lt0" />
+        <img id="c1_d" src="images/copy1_4.png" class="w100 posAbsolute lt0" />
+        <img id="c1_e" src="images/copy1_5.png" class="w100 posAbsolute lt0" />
+        <img id="c1_f" src="images/copy1_6.png" class="w100 posAbsolute lt0" />
+        <img id="c1_g" src="images/copy1_7.png" class="w100 posAbsolute lt0" />
+      </div>
+    </div>
+    <!-- Frame 2 -->
+    <div id="frame2" class="posAbsolute w100 lt0">
+      <div id="copy2" class="masterSize posAbsolute lt0">
+        <img id="c2_a" src="images/copy2_1.png" class="w100 posAbsolute lt0" />
+        <img id="c2_b" src="images/copy2_2.png" class="w100 posAbsolute lt0" />
+        <img id="c2_c" src="images/copy2_3.png" class="w100 posAbsolute lt0" />
+        <img id="c2_d" src="images/copy2_4.png" class="w100 posAbsolute lt0" />
+        <img id="c2_e" src="images/copy2_5.png" class="w100 posAbsolute lt0" />
+        <img id="c2_f" src="images/copy2_6.png" class="w100 posAbsolute lt0" />
+      </div>
+      <div id="ctaCopy" class="masterSize posAbsolute lt0">
+        <img id="ctaImage1" src="images/cta_copy1.png" class="w100 posAbsolute lt0">
+        <img id="ctaImage2" src="images/cta_copy2.png" class="w100 posAbsolute lt0">
+        <img id="ctaArrow" class="cArrow posAbsolute" src="images/cta_arrow.png" class="w100 posAbsolute lt0">
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript">
+    var clickTag = "https://www.google.com";
+    var clickArea = document.getElementById("banner");
+    clickArea.onclick = function () {
+      window.open(clickTag, "_blank");
+    };
+  </script>
+</body>
+
+</html>

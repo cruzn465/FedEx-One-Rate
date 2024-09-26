@@ -1,0 +1,150 @@
+body { margin:0px 0px; padding:0px; } 
+
+* { 
+	box-sizing: Border-box;
+	-webkit-backface-visibility: hidden;
+  	-webkit-perspective: 1000px; 
+	-ms-overflow-style: hidden;
+}  
+
+#container{
+	background-color:white;
+	position:absolute;
+	overflow:hidden;
+	border: 1px solid #515151;
+} 
+
+.sprite {
+	position:absolute;
+	background-repeat:no-repeat;
+}
+
+.masterSize {
+	width: 970px;
+	height: 90px;
+}
+
+#banner {
+	background: #4d148c;
+	cursor: pointer;
+	overflow: hidden;
+	/* border: 1px solid #515151; */
+	box-sizing: border-box;
+}
+
+.lt0 {
+	top: 0px;
+	left: 0px;
+}
+
+.w100 {
+	width: 100%;
+	height: 100%;
+}
+
+.orangeBorder {
+	background-color: #ff6600;
+	width: 15px;
+	height: 100%;
+}
+
+#bg_2x {
+	left:0px;
+	top:0px;
+	width:970px;
+	height:90px;
+	background-image:url(../img/bg_2x.jpg);
+	background-size:970px 90px;
+}
+
+div#logo {
+	width: 136px;
+    top: 18.5px;
+    left: 25px;
+    z-index: 1;
+}
+
+.fpo {
+	opacity: .5;
+}
+
+#c1_a_2x {
+	left:23px;
+	top:79px;
+	width:132px;
+	height:26px;
+	background-image:url(../img/c1_a_2x.png);
+	background-size:132px 26px;
+}
+
+#c1_b_2x {
+	left:23px;
+	top:115px;
+	width:207px;
+	height:33px;
+	background-image:url(../img/c1_b_2x.png);
+	background-size:207px 33px;
+}
+
+#c1_c_2x {
+	left:21px;
+	top:151px;
+	width:144px;
+	height:33px;
+	background-image:url(../img/c1_c_2x.png);
+	background-size:144px 33px;
+}
+
+#c2_a_2x {
+	left:187px;
+	top:15px;
+	width:515px;
+	height:29px;
+	background-image:url(../img/c2_a_2x.png);
+	background-size:515px 29px;
+}
+
+#c2_b_2x {
+	left:195px;
+	top:42px;
+	width:261px;
+	height:18px;
+	background-image:url(../img/c2_b_2x.png);
+	background-size:261px 18px;
+}
+
+#c2_c_2x {
+	left:186px;
+	top:54px;
+	width:327px;
+	height:23px;
+	background-image:url(../img/c2_c_2x.png);
+	background-size:327px 23px;
+}
+
+#ctaArr_2x {
+	left:932px;
+	top:36px;
+	width:22px;
+	height:18px;
+	background-image:url(../img/ctaArr_2x.png);
+	background-size:22px 18px;
+}
+
+#cta_2x {
+	left:800px;
+	top:36px;
+	width:123px;
+	height:17px;
+	background-image:url(../img/cta_2x.png);
+	background-size:123px 17px;
+}
+
+#legal_2x {
+	left:658px;
+	top:67px;
+	width:295px;
+	height:13px;
+	background-image:url(../img/legal_2x.png);
+	background-size:295px 13px;
+}

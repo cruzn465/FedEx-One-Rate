@@ -27,7 +27,7 @@ function init(){
 
     function ctaOver(e) {
         if (ctaArr_2x.style.opacity == 1) {
-          TweenLite.fromTo(ctaArr_2x, .5, { rotationZ: '0deg' }, { rotationZ: '0deg', x: 10, ease: Quad.easeOut, force3D: true });
+          TweenLite.fromTo(ctaArr_2x, .5, { rotationZ: '0deg' }, { rotationZ: '0deg', x: dimensions.width*.03, ease: Quad.easeOut, force3D: true });
           // tl
           //   .fromTo(ctaArr_2x, 0.5, { x: 0 }, { x: 10, ease: Power2.easeOut, force3D: true })
         }
@@ -55,26 +55,18 @@ function init(){
     //set timeline
     tl = new TimelineLite();
     tl.addLabel("start")
+    
     // set variables here
-    // .set([c1_a_2x, c1_b_2x, c1_c_2x, c2_a_2x, c2_b_2x, c2_c_2x], { x: 80, force3D: true })
+    // i.e.
+    // .set([c1_a_2x, c1_b_2x], { opacity: 0, x: 80, force3D: true })
 
     tl
-    // f1
-    // .from(c1_a_2x, 0.5, { x: 80, opacity: 0, ease: Quad.easeOut }, "+=0.5")
-    // .staggerFrom([c1_b_2x, c1_c_2x], .5, { x: 80, opacity: 0, ease: Quad.easeOut }, .1)
-    // .to([c1_a_2x,c1_b_2x, c1_c_2x], 0.5, {opacity: 0, ease: Quad.easeOut }, "+=1.3")
-
-    // f2
     .staggerFrom([c2_a_2x,c2_b_2x], .5, { x: 80, opacity: 0, ease: Quad.easeOut }, .1,"+=0.5")
     .from(c2_c_2x, 0.5, { x: 80, opacity: 0, ease: Quad.easeOut }, "+=0.5")
     .staggerFrom([[cta_2x,ctaArr_2x],legal_2x], 1, { opacity: 0, ease: Quad.easeOut }, .3,"+=0.4")
-    // .from(, 1, { opacity: 0, ease: Quad.easeOut }, "=0.1")
-    // .from([], 1, { opacity: 0, ease: Quad.easeOut }, "=0.1")
-
-
-    .fromTo(ctaArr_2x, .5, { x: "0" }, { rotationZ: '0deg', x: 10, ease: Quad.easeOut, force3D: true }, "+=0")
+    
+    .fromTo(ctaArr_2x, .5, { x: "0" }, { rotationZ: '0deg', x: dimensions.width*.03, ease: Quad.easeOut, force3D: true }, "+=0")
     .to(ctaArr_2x, .3, { rotationZ: '0deg', x: 0, ease: Quad.easeIn }, "+=0.2");
-
 
 
     addListeners();

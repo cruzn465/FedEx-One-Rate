@@ -48,7 +48,10 @@ function initAd() {
     .staggerTo("#c2_b, #c2_c", .5, { x: 0, opacity: 1, ease: Quad.easeOut }, .1, "frame2+=1.1")
     .staggerTo("#ctaCopy, #ctaArrow", 1.0, { x: "0", opacity: 1, ease: Power1.easeInOut }, 0, "frame2+=2.1")
     .fromTo('#ctaArrow', .5, { x: "0" }, { rotationZ: '0deg', x: 10, ease: Quad.easeOut, force3D: true }, "frame2+=3.2")
-    .to('#ctaArrow', .3, { rotationZ: '0deg', x: 0, ease: Quad.easeIn }, "frame2+=3.7");
+    .to('#ctaArrow', .3, { rotationZ: '0deg', x: 0, ease: Quad.easeIn }, "frame2+=3.7")
+    .to('#ctaArrow', .3, { opacity: 0, ease: Quad.easeIn }, "frame2+=4");
+
+
 
   var ctaArrow = document.getElementById("ctaArrow");
 

@@ -1,0 +1,81 @@
+body { margin:0px 0px; padding:0px; } 
+
+* { 
+	box-sizing: Border-box;
+	-webkit-backface-visibility: hidden;
+  	-webkit-perspective: 1000px; 
+	-ms-overflow-style: hidden;
+}  
+
+#container{
+	background-color:white;
+	position:absolute;
+	overflow:hidden;
+	border: 1px solid #515151;
+}
+.sprite {
+	position:absolute;
+	background-repeat:no-repeat;
+}
+
+.masterSize {
+	width: 950px;
+	height: 40px;
+}
+
+#banner {
+	background: #4d148c;
+	cursor: pointer;
+	overflow: hidden;
+	/* border: 1px solid #515151; */
+	box-sizing: border-box;
+}
+
+.lt0 {
+	top: 0px;
+	left: 0px;
+}
+
+.w100 {
+	width: 100%;
+	height: 100%;
+}
+
+.orangeBorder {
+	background-color: #ff6600;
+	width: 18px;
+	height: 100%;
+}
+div#logo {
+    width: 84.3px;
+    top: 5.9px;
+    left: 47.5px;
+    z-index: 1;
+}
+
+#c2_a_2x {
+	left:212px;
+	top:13px;
+	width:528px;
+	height:21px;
+	background-image:url(../img/c2_a_2x.png);
+	background-size:528px 21px;
+}
+
+#ctaArr_2x {
+	left:914px;
+	top:16px;
+	width:12px;
+	height:9px;
+	background-image:url(../img/ctaArr_2x.png);
+	background-size:12px 9px;
+}
+
+#cta_2x {
+	left:841px;
+	top:15px;
+	width:69px;
+	height:10px;
+	background-image:url(../img/cta_2x.png);
+	background-size:69px 10px;
+}

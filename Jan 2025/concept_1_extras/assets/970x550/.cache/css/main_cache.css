@@ -1,0 +1,28 @@
+
+
+#ctaArr_2x {
+	left:917px;
+	top:474px;
+	width:24px;
+	height:19px;
+	background-image:url(../img/ctaArr_2x.png);
+	background-size:24px 19px;
+}
+
+#cta_2x {
+	left:777px;
+	top:475px;
+	width:131px;
+	height:18px;
+	background-image:url(../img/cta_2x.png);
+	background-size:131px 18px;
+}
+
+#legal_2x {
+	left:545px;
+	top:510px;
+	width:395px;
+	height:17px;
+	background-image:url(../img/legal_2x.png);
+	background-size:395px 17px;
+}
